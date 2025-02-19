@@ -1,0 +1,12 @@
+temperature: 1.0 # sample temperature
+max_step_tokens: 256
+max_tokens: 1024
+select_method: "softmax_costmodel"
+num_threads: 8 # threads in SGLang
+softmax_temperature: 0.2 # temperature in the softmax
+reward_model_type: "llemma"
+policy_model_type: "llemma"
+store_path: ./exp_results/ets_16_math500/ # dir for storing the results
+width: 16 # sample N=16 solutions
+lambdac: 1.0
+lambdas: 1.5
